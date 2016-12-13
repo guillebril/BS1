@@ -8,9 +8,6 @@ p {
     margin-top: 0px;
 }
 
-
-
-
 .gray {
     background-color: #e7eaee;
 }
@@ -21,10 +18,13 @@ p {
     border: 1px solid #ddd;
     border-radius: 3px;
     padding-left: 15px;
-    padding-bottom: 25px;
-    padding-top: 10px;
+    padding-bottom: 15px;
     padding-right: 15px;
-    margin-top: 15px;
+    margin-top: 12px;
+}
+
+.sub-header {
+    padding-bottom: 15px;
 }
 
 .main-col {
@@ -92,9 +92,13 @@ h1 {
 
 /*=======  booking container =========*/
 
+.side-bar{
+	padding-left: 12px;
+}
+
 .book-menu {
     position: absolute;
-    width: 315px;
+    width: 308px;
     margin-top: -41px;
     padding: 0;
 }
@@ -119,7 +123,7 @@ h1 {
     height: 40px;
     color: white;
     padding: 6px 15px;
-    width: 315px;
+    width: 308px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     letter-spacing: 0.7px;
@@ -183,6 +187,7 @@ h4 {
 
 .price-table {
     min-width: 215px;
+    margin-bottom: 15px;
 }
 
 
@@ -315,9 +320,8 @@ img.side-pic {
     width: 100%;
     padding-top: 20px;
     margin-bottom: 20px;
+    max-width: 1005px;
 }
-
-
 
 
 /*=============== MEDIA QUERIES =============*/
@@ -332,15 +336,16 @@ img.side-pic {
     .logo img {
         height: 50px;
     }
-    .container-fluid {
-    	padding-left: 7px;
-    	padding-right: 7px;
+    .container-fluid {}
+    .panel {
+        margin-top: 7px !important;
     }
-    .panel{
-    	margin-top: 7px !important;
+    .logo {
+        padding-top: 15px
     }
-    .logo{
-    	padding-top: 15px}
+    .container {
+        margin: 0 7px;
+    }
 }
 
 
@@ -349,15 +354,6 @@ img.side-pic {
 @media (max-width: 992px) {
     .book-menu {
         display: none !important;
-    }
-}
-
-
-/*TABLET y MAYORES*/
-
-@media (min-width: 992px) {
-    .container {
-        width: 970px;
     }
 }
 
@@ -373,7 +369,7 @@ img.side-pic {
 
 @media (min-width: 1200px) {
     .container {
-        width: 1130px !important;
+        width: 1030px !important;
         max-width: 100%;
     }
 }
