@@ -9,13 +9,14 @@ p {
 }
 
 .gray {
-    background-color: #e7eaee;
+    background-color: #fafafa;
 }
 
 .panel {
     width: 100%;
     background-color: white;
-    border: 1px solid #ddd;
+    border: 1px solid rgba(0,0,0,.09);
+    box-shadow: 0 1px 4px rgba(0,0,0,.04);
     border-radius: 3px;
     padding-left: 15px;
     padding-bottom: 15px;
@@ -49,7 +50,7 @@ hr {
     border: 0px;
     margin-top: 20px;
     color: white;
-    background-color: #236cb0;
+    background-color: #09a6a7;
 }
 
 
